@@ -111,6 +111,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.style__color-by-row--3RQTv .ant-select {
+  width: 100%;
 }.style__container--3YOZp {
     -webkit-animation: none 0s ease 0s 1 normal none running;
             animation: none 0s ease 0s 1 normal none running;
