@@ -251,7 +251,11 @@
     -webkit-animation: none;
             animation: none;
 }
-.style__container--1umfk .ant-card-actions li {
+.style__container--1umfk .ant-card-meta-title {
+    color: #a0a0a0;
+}
+.style__container--1umfk .ant-card-actions li,
+    .style__container--1umfk .ant-card-actions a {
     color: white;
 }
 .style__container--1umfk .ant-card-body {
