@@ -6,6 +6,10 @@
     width: 100%;
 }.style__container--1QLpn {
     display: inline;
+}
+
+.style__menu--3nC0E a{
+    display: inline;
 }.ant-progress-outer {
     width: 60%;
 }
@@ -51,9 +55,6 @@
 }
 .style__container--2a80r .ant-badge.ant-badge-not-a-wrapper {
     padding-right: 0;
-}
-.ant-dropdown-menu-item > a {
-    display: inline;
 }
 .style__container--2a80r button {
     margin: 0.2em 0em 0.2em 1em;
