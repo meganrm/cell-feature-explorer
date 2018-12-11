@@ -115,6 +115,17 @@
 
 .style__color-by-row--3RQTv .ant-select {
   width: 100%;
+}.style__follower--s1v90 {
+    position: absolute;
+    float: left;
+}
+
+.style__container--MWnN3 {
+    width: 80px;
+}
+
+.style__container--MWnN3 .ant-card-body {
+    padding: 2px;
 }.style__container--3YOZp {
     -webkit-animation: none 0s ease 0s 1 normal none running;
             animation: none 0s ease 0s 1 normal none running;
@@ -251,6 +262,12 @@
 .modebar-btn.active path{
     /*override plotly svg styling*/
     fill: white!important;
+}
+
+.ant-popover-inner-content {
+    -webkit-box-shadow: 0 2px 8px black ;
+            box-shadow: 0 2px 8px black ;
+    padding: 0;
 }.style__container--1umfk .ant-card-loading-block {
     -webkit-animation: none;
             animation: none;
