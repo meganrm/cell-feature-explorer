@@ -118,7 +118,6 @@
   width: 100%;
 }.style__follower--s1v90 {
     position: absolute;
-    float: left;
 }
 
 .style__container--MWnN3 {
@@ -273,33 +272,82 @@
     -webkit-animation: none;
             animation: none;
 }
+
 .style__container--1umfk .ant-card-meta-title {
     color: #a0a0a0;
 }
+
+.style__container--1umfk .ant-card-actions {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+}
+
+.style__container--1umfk .ant-card-cover {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    min-width: 110px;
+    max-width: 128px;
+}
+
 .style__container--1umfk .ant-card-actions li,
     .style__container--1umfk .ant-card-actions a {
     color: white;
 }
+
 .style__container--1umfk .ant-card-body {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    overflow: hidden;
     padding: 6px;
 }
+
 .style__container--1umfk {
+
     img {
           max-height: 118px;
     }
 }
-.style__gallery-header--24Z5z {
+
+.style__container--1umfk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 2em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    max-width: 220px;
+    border: 1px solid #131313;
+}
+
+.style__container--1umfk.ant-card-bordered {
+      border: 1px solid white;
+}
+
+.style__container--1umfk:hover {
+      border: 1px solid #6e6e6e;
+}.style__gallery-header--24Z5z {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 
 .style__container--2ioFj .ant-list-item-content {
     width: 100%;
+}
+
+.style__gallery-header--24Z5z .ant-btn {
+    margin-top: 3px;
+}
+
+.style__gallery-header--24Z5z .ant-form-item {
+    margin-right: 1em;
 }.style__container--iD4cW {
     min-width: 120px;
     background-color: #6e6e6e;
@@ -334,4 +382,13 @@
 
 .style__header--3rm0D {
     padding: 24px 50px;
+    display: inline-block;
+}
+
+.style__selected-info--1DbKk {
+    display: inline-block;
+}
+
+.style__label--2AoAh {
+    color: #a0a0a0;
 }
