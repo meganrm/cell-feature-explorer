@@ -6569,9 +6569,9 @@ span.ant-radio + * {
   pointer-events: none;
 }
 .ant-btn-primary {
-  color: #fff;
-  background-color: #8048f3;
-  border-color: #8048f3;
+  color: #181818;
+  background-color: #888888;
+  border-color: #888888;
 }
 .ant-btn-primary > a:only-child {
   color: currentColor;
@@ -6587,9 +6587,9 @@ span.ant-radio + * {
 }
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
-  color: #fff;
-  background-color: #a875ff;
-  border-color: #a875ff;
+  color: #181818;
+  background-color: #948b8b;
+  border-color: #948b8b;
 }
 .ant-btn-primary:hover > a:only-child,
 .ant-btn-primary:focus > a:only-child {
@@ -6607,9 +6607,9 @@ span.ant-radio + * {
 }
 .ant-btn-primary:active,
 .ant-btn-primary.active {
-  color: #fff;
-  background-color: #6133cc;
-  border-color: #6133cc;
+  color: #181818;
+  background-color: #615b5b;
+  border-color: #615b5b;
 }
 .ant-btn-primary:active > a:only-child,
 .ant-btn-primary.active > a:only-child {
@@ -6911,7 +6911,7 @@ span.ant-radio + * {
   background: transparent;
 }
 .ant-btn-danger:hover {
-  color: #fff;
+  color: #181818;
   background-color: #ff4d4f;
   border-color: #ff4d4f;
 }
@@ -6946,7 +6946,7 @@ span.ant-radio + * {
 }
 .ant-btn-danger:active,
 .ant-btn-danger.active {
-  color: #fff;
+  color: #181818;
   background-color: #cf1322;
   border-color: #cf1322;
 }
@@ -7211,9 +7211,9 @@ span.ant-radio + * {
   color: #fff;
 }
 .ant-btn-background-ghost.ant-btn-primary {
-  color: #8048f3;
+  color: #888888;
   background-color: transparent;
-  border-color: #8048f3;
+  border-color: #888888;
 }
 .ant-btn-background-ghost.ant-btn-primary > a:only-child {
   color: currentColor;
@@ -7229,9 +7229,9 @@ span.ant-radio + * {
 }
 .ant-btn-background-ghost.ant-btn-primary:hover,
 .ant-btn-background-ghost.ant-btn-primary:focus {
-  color: #a875ff;
+  color: #948b8b;
   background-color: transparent;
-  border-color: #a875ff;
+  border-color: #948b8b;
 }
 .ant-btn-background-ghost.ant-btn-primary:hover > a:only-child,
 .ant-btn-background-ghost.ant-btn-primary:focus > a:only-child {
@@ -7249,9 +7249,9 @@ span.ant-radio + * {
 }
 .ant-btn-background-ghost.ant-btn-primary:active,
 .ant-btn-background-ghost.ant-btn-primary.active {
-  color: #6133cc;
+  color: #615b5b;
   background-color: transparent;
-  border-color: #6133cc;
+  border-color: #615b5b;
 }
 .ant-btn-background-ghost.ant-btn-primary:active > a:only-child,
 .ant-btn-background-ghost.ant-btn-primary.active > a:only-child {

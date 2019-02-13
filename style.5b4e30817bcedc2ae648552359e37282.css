@@ -351,11 +351,8 @@
 
 .style__container--1umfk .ant-list-item-action a {
     color: white;
-}.style__gallery-title--1aUef {
-    padding: 1em;
-}
-
-.style__gallery-header--24Z5z {
+}.style__gallery-header--24Z5z {
+    padding: 1em 0.75em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -364,33 +361,74 @@
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
     margin: auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: #4b4b4b
 }
 
 .style__gallery-header--24Z5z .ant-btn {
-    margin: auto;
     margin-top: 3px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }
 
-.style__gallery-header--24Z5z .ant-form-item {
+.style__gallery-header--24Z5z  .ant-form-item {
     margin: auto;
-    margin-right: 1em;
 }
 
-.style__container--2ioFj .ant-list-item-content {
-    width: 100%;
+.style__gallery-header-actions--2WMv7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end
 }
+
+.style__gallery-header-actions--2WMv7 input {
+    background-color: #4b4b4b;
+}
+
+.style__gallery-title--1aUef {
+    padding: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+/*LIST STYLES*/
 
 .style__container--2ioFj .ant-avatar {
     height: 110px;
     width: 110px;
 }
 
+.style__container--2ioFj .ant-list-item-content {
+    width: 100%;
+}
+
 .style__list-item--37xqw {
     border-bottom: 0.5px solid #a0a0a0;
 }
 
-.style__container--2ioFj .ant-list-split .ant-list-item:last-child {
-    margin-bottom: 48px;  /*for collapse button height */
+.style__container--2ioFj .ant-list-item-meta-avatar {
+    margin-right: 0;
+}
+
+.style__container--2ioFj .ant-list-split .ant-list-item,
+.style__container--2ioFj .ant-list-something-after-last-item .ant-spin-container > .ant-list-item:last-child
+{
+    border-bottom: 1px solid #6e6e6e;
 }
 
 /* collapsed sider styling*/
@@ -420,17 +458,6 @@
     width: 70px;
 }
 
-.ant-layout-sider-collapsed .ant-list-item-meta {
-    padding-left: 4px;
-}
-
-.ant-layout-sider-collapsed .style__gallery-title-small--2VKBY {
-    font-size: 3em;
-    display: block;
-    text-align: center;
-    margin: auto;
-}
-
 .ant-layout-sider-collapsed .style__gallery-header--24Z5z {
     text-align: center;
     -webkit-box-pack: justify;
@@ -438,9 +465,20 @@
             justify-content: space-between;
 }
 
+.ant-layout-sider-collapsed h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+}
+
 .ant-layout-sider-collapsed .style__gallery-header--24Z5z .ant-form-item,
 .ant-layout-sider-collapsed .style__gallery-header--24Z5z .ant-btn {
     margin: auto;
+    padding: 5px;
 }
 
 .ant-layout-sider-collapsed .ant-form-item{
@@ -486,10 +524,14 @@
 .style__sider--1e2a- {
     background-color: rgba(75, 75, 75, 0.81961);
     height: 100vh;
-    overflow: auto;
     position: fixed;
     right: 0;
     z-index: 3000;
+    padding-bottom: 0;
+}
+
+.style__sider--1e2a- .ant-layout-sider-children {
+    overflow: scroll;
 }
 
 .ant-collapse,
@@ -500,10 +542,23 @@
     border-radius: 0;
 }
 
-.ant-layout-sider-trigger {
-    background: #aeacae;
-}
-
 .style__color-menu--1I-K5 .ant-layout-sider-trigger {
     position: inherit;
 }
+
+.style__sider--1e2a- .ant-layout-sider-trigger {
+    width: 20px !important;
+    height: 100%;
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    background-color: #4b4b4b;
+    border-left: 0.5px solid #6e6e6e
+}
+
+.style__sider--1e2a- .ant-layout-sider-trigger i {
+    position: absolute;
+    top: 50%;
+    left: 3.5px;
+}
+
