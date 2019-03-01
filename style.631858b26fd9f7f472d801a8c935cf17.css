@@ -2168,7 +2168,7 @@ mark {
   flex: 0 0 auto;
 }
 .ant-layout-header {
-  background: #313131;
+  background: #4b4b4b;
   padding: 0 50px;
   height: 64px;
   line-height: 64px;
@@ -5937,7 +5937,7 @@ mark {
   border-top: 1px solid #6e6e6e;
 }
 .ant-collapse-content > .ant-collapse-content-box {
-  padding: 16px;
+  padding: 30px;
 }
 .ant-collapse-content-inactive {
   display: none;
@@ -7657,7 +7657,7 @@ a.ant-btn-sm {
 }
 .ant-dropdown-menu-dark,
 .ant-dropdown-menu-dark .ant-dropdown-menu {
-  background: #313131;
+  background: #4b4b4b;
 }
 .ant-dropdown-menu-dark .ant-dropdown-menu-item,
 .ant-dropdown-menu-dark .ant-dropdown-menu-submenu-title,
@@ -8167,7 +8167,7 @@ a.ant-btn-sm {
 .ant-menu-dark,
 .ant-menu-dark .ant-menu-sub {
   color: rgba(255, 255, 255, 0.65);
-  background: #313131;
+  background: #4b4b4b;
 }
 .ant-menu-dark .ant-menu-submenu-title .ant-menu-submenu-arrow,
 .ant-menu-dark .ant-menu-sub .ant-menu-submenu-title .ant-menu-submenu-arrow {
@@ -8192,7 +8192,7 @@ a.ant-btn-sm {
 }
 .ant-menu-dark.ant-menu-horizontal > .ant-menu-item,
 .ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
-  border-color: #313131;
+  border-color: #4b4b4b;
   border-bottom: 0;
   top: 0;
   margin-top: 0;
